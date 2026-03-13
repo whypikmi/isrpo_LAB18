@@ -127,7 +127,6 @@ console.log(true + 1);
 console.log(false + 1);
 console.log(null + 1);
 console.log(undefined + 1);
-*/
 console.log(5 == "5");
 console.log(5 === "5");
 console.log(0 == false);
@@ -142,3 +141,36 @@ console.log(obj1 === obj2);
 
 let obj3 = obj1;
 console.log(obj1 == obj3);
+
+let arr1 = [1,2,3];
+let arr2 = [1,2,3];
+console.log(arr1===arr2);
+*/
+let a1 = 5;
+let b1 = 3;
+console.log("Сумма: ", a1 + b1);
+console.log("Разность: ", a1 - b1);
+console.log("Произведение: ", a1 * b1);
+console.log("Деление: ", a1 / b1);
+
+console.log("Обычное сообщение");
+console.warn("Предупреждение!");
+console.error("Ошибка!");
+console.info("Информация");
+let users = [
+    {name: "John", age: 30},
+    {name: "John", age: 25},
+]
+console.table(users);
+
+let x1 = 10;
+let y1 = 2;
+console.log(x1 + y1);
+console.log(x1 - y1);
+console.log(x1 * y1);
+console.log(x1 / y1);
+x1 = "10";
+console.log(x1 + y1);
+console.log(x1 - y1);
+console.log(x1 * y1);
+console.log(x1 / y1);
