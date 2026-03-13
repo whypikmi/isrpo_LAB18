@@ -145,7 +145,6 @@ console.log(obj1 == obj3);
 let arr1 = [1,2,3];
 let arr2 = [1,2,3];
 console.log(arr1===arr2);
-*/
 let a1 = 5;
 let b1 = 3;
 console.log("Сумма: ", a1 + b1);
@@ -174,3 +173,8 @@ console.log(x1 + y1);
 console.log(x1 - y1);
 console.log(x1 * y1);
 console.log(x1 / y1);
+*/
+let a2 = 15;
+let b2 = 3;
+console.log(a2 + b2);
+console.log(a2 * b2);
